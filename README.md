@@ -6,7 +6,7 @@ querySelectorAll("selector") = returns a static NodeList of all matching element
 
 2. let div = document.createElement("div");
 div.textContent = "Hello";
-document.body.appendChild(div);  // insert into DOM
+document.body.appendChild(div); 
 
 3. An event starts from the target element and bubbles up through its ancestors child → parent.
 4. Attach an event listener to a parent element instead of multiple children, and handle events based on event.target. It is useful for performance and handling dynamically added elements.
